@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layer"
+    tools:context="com.example.admin.f_traveller.SeatsActivity">
+
+    <ImageView
+        android:id="@+id/im7"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/im6"
+        app:layout_constraintTop_toBottomOf="@+id/im5"
+        app:srcCompat="@drawable/bookedseat"
+        android:layout_marginStart="8dp"
+        tools:ignore="ContentDescription,RtlHardcoded"
+        android:contentDescription="" />
+
+    <ImageView
+        android:id="@+id/im5"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/seat_booked"
+        android:contentDescription=""
+        app:layout_constraintLeft_toRightOf="@+id/im4"
+        app:layout_constraintTop_toBottomOf="@+id/im3"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/im9"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/im8"
+        app:layout_constraintTop_toBottomOf="@+id/im7"
+        app:srcCompat="@drawable/seat_booked"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/im11"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/im10"
+        app:layout_constraintTop_toBottomOf="@+id/im9"
+        app:srcCompat="@drawable/seat_booked"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/im13"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/im12"
+        app:layout_constraintTop_toBottomOf="@+id/im11"
+        app:srcCompat="@drawable/seat_booked"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/im3"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:background="@drawable/seat_booked"
+        app:layout_constraintLeft_toRightOf="@+id/im2"
+        tools:ignore="ContentDescription,MissingConstraints,RtlHardcoded"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/iBs1" />
+
+    <TextView
+        android:id="@+id/tVseats"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="16dp"
+        android:text="@string/select_your_seat"
+        android:textColor="@color/colorAccent"
+        android:textStyle="bold"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="8dp"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tVavseats"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:text="@string/available_seats_s"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="80dp"
+        tools:ignore="RtlHardcoded"
+        android:layout_marginLeft="68dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+    <TextView
+        android:id="@+id/tVbooked"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/booked_seats_s"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        app:layout_constraintLeft_toRightOf="@+id/tVavseats"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="16dp"
+        tools:ignore="RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tVselected"
+        android:layout_width="70dp"
+        android:layout_height="35dp"
+        android:text="@string/selected_seats_s"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="8dp"
+        tools:ignore="MissingConstraints,RtlHardcoded"
+        app:layout_constraintLeft_toRightOf="@+id/tVbooked"
+        android:layout_marginLeft="16dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="80dp" />
+
+    <ImageView
+        android:id="@+id/Imavailable"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/availableseat"
+        tools:ignore="ContentDescription,RtlHardcoded"
+        android:layout_marginLeft="85dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/tVavseats" />
+
+    <ImageView
+        android:id="@+id/ImBooked"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        app:srcCompat="@drawable/bookedseat"
+        android:layout_marginStart="60dp"
+        tools:ignore="ContentDescription,MissingConstraints,RtlHardcoded"
+        android:contentDescription=""
+        app:layout_constraintLeft_toRightOf="@+id/Imavailable"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/tVbooked" />
+
+    <ImageView
+        android:id="@+id/imselected"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="60dp"
+        app:srcCompat="@drawable/selectedseat"
+        tools:ignore="ContentDescription,MissingConstraints,RtlHardcoded"
+        android:contentDescription=""
+        app:layout_constraintLeft_toRightOf="@+id/ImBooked"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/tVselected" />
+
+    <ImageView
+        android:id="@+id/Imseatline"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginStart="8dp"
+        android:contentDescription=""
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/line"
+        tools:ignore="ContentDescription,MissingConstraints"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@+id/ImBooked" />
+
+    <ImageView
+        android:id="@+id/im14"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="8dp"
+        android:contentDescription=""
+        app:layout_constraintTop_toBottomOf="@+id/Imseatline"
+        app:srcCompat="@drawable/seat_booked"
+        tools:ignore="ContentDescription,MissingConstraints,RtlHardcoded"
+        app:layout_constraintLeft_toRightOf="@+id/iBs1"
+        android:layout_marginLeft="8dp" />
+
+    <ImageView
+        android:id="@+id/im19"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/im7"
+        app:layout_constraintTop_toBottomOf="@+id/im17"
+        app:srcCompat="@drawable/seat_booked"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/im17"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/im5"
+        app:layout_constraintTop_toBottomOf="@+id/im15"
+        app:srcCompat="@drawable/seat_booked"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/im23"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/im11"
+        app:layout_constraintTop_toBottomOf="@+id/im21"
+        app:srcCompat="@drawable/seat_booked"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/im25"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/im13"
+        app:layout_constraintTop_toBottomOf="@+id/im23"
+        app:srcCompat="@drawable/seat_booked"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/im15"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="64dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/im3"
+        app:layout_constraintTop_toBottomOf="@+id/im14"
+        app:srcCompat="@drawable/seat_booked"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/im20"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/im19"
+        app:layout_constraintTop_toBottomOf="@+id/im18"
+        app:srcCompat="@drawable/seat_booked"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/im21"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="74dp"
+        android:layout_marginStart="74dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/im9"
+        app:layout_constraintTop_toBottomOf="@+id/im19"
+        app:srcCompat="@drawable/seat_booked"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/im18"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/im17"
+        app:layout_constraintTop_toBottomOf="@+id/im16"
+        app:srcCompat="@drawable/seat_booked"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/im22"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/im21"
+        app:layout_constraintTop_toBottomOf="@+id/im20"
+        app:srcCompat="@drawable/seat_booked"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/im24"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/im23"
+        app:layout_constraintTop_toBottomOf="@+id/im22"
+        app:srcCompat="@drawable/seat_booked"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/im26"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/im25"
+        app:layout_constraintTop_toBottomOf="@+id/im24"
+        app:srcCompat="@drawable/seat_booked"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/im16"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toRightOf="@+id/im15"
+        app:layout_constraintTop_toBottomOf="@+id/im14"
+        app:srcCompat="@drawable/seat_booked"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/im10"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im8"
+        app:srcCompat="@drawable/seat_booked"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/im12"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="83dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im10"
+        app:srcCompat="@drawable/seat_booked"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/im2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginStart="85dp"
+        android:background="@drawable/seat_booked"
+        app:layout_constraintLeft_toLeftOf="parent"
+        tools:ignore="ContentDescription,MissingConstraints,RtlHardcoded"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/iBs1" />
+
+    <ImageView
+        android:id="@+id/im8"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="87dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im6"
+        app:srcCompat="@drawable/seat_booked"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/im4"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im2"
+        app:srcCompat="@drawable/bookedseat"
+        android:layout_marginStart="85dp"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <ImageView
+        android:id="@+id/im6"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginLeft="85dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/im4"
+        app:srcCompat="@drawable/seat_booked"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <TextView
+        android:id="@+id/tVnoseats"
+        android:layout_width="200dp"
+        android:layout_height="17dp"
+        android:layout_marginStart="50dp"
+        android:text="@string/no_of_seats_s_selected"
+        android:textColor="@color/colorAccent"
+        tools:ignore="MissingConstraints,RtlHardcoded"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintHorizontal_bias="0.26"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/im13" />
+
+    <TextView
+        android:id="@+id/tVvipseats"
+        android:layout_width="100dp"
+        android:layout_height="17dp"
+        android:text="@string/vip_seats_s"
+        android:textColor="@color/colorAccent"
+        tools:ignore="RtlHardcoded"
+        android:layout_marginLeft="85dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/tVnoseats" />
+
+    <TextView
+        android:id="@+id/tVeconomyseats"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="@string/economy_seats_s"
+        android:textColor="@color/colorAccent"
+        tools:ignore="RtlHardcoded"
+        app:layout_constraintLeft_toRightOf="@+id/tVvipseats"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.151"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/tVnoseats" />
+
+    <Button
+        android:id="@+id/Bseatdone"
+        android:layout_width="250dp"
+        android:layout_height="35dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/loginb"
+        android:text="@string/done"
+        android:textColor="@color/colorPrimary"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/tVeconomyseats"
+        app:layout_constraintVertical_bias="0.5" />
+
+    <ImageButton
+        android:id="@+id/iBs1"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/seat_booked"
+        android:layout_marginTop="8dp"
+        app:layout_constraintTop_toBottomOf="@+id/Imseatline"
+        tools:ignore="ContentDescription,MissingConstraints,RtlHardcoded"
+        android:layout_marginLeft="85dp"
+        app:layout_constraintLeft_toLeftOf="parent" />
+
+</android.support.constraint.ConstraintLayout>

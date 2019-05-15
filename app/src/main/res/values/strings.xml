@@ -1,0 +1,75 @@
+<resources>
+    <string name="app_name">Traveller</string>
+    <string-array name="spinner_options">
+        <item name="Choose Location......">"Choose Location......</item>
+        <item name="Nairobi">Nairobi</item>
+        <item name="Mombasa">Mombasa</item>
+        <item name="Kisumu">Kisumu</item>
+        <item name="Nakuru">Nakuru</item>
+        <item name="Nyeri">Nyeri</item>
+        <item name="Eldoret">Eldoret</item>
+        <item name="Lamu">Lamu</item>
+        <item name="Malindi">Malindi</item>
+        <item name="Kilifi">Kilifi</item>
+    </string-array>
+
+
+    <string-array name="spinner_amount">
+        <item name="Choose Your Mobile Pocket...">Choose Your Mobile Pocket...</item>
+        <item name="Mpesa">Mpesa</item>
+        <item name="Airtel Money">Aitel Money</item>
+        <item name="Equitel">Equitel</item>
+        <item name="KCB">KCB</item>
+        <item name="CopCash">CopCash</item>
+        <item name="MobiCash">Mobicash</item>
+    </string-array>
+
+
+    <string name="sign_up">Sign up</string>
+    <string name="log_in">Log in</string>
+    <string name="_254">+254</string>
+    <string name="confirm_phone">Confirm phone</string>
+    <string name="phone_number">Phone number</string>
+    <string name="kenya">kenya</string>
+    <string name="_11111">11111</string>
+    <string name="enter_code">Enter Code</string>
+    <string name="resend">Resend</string>
+    <string name="textview">TextView</string>
+    <string name="booking">Booking</string>
+    <string name="date_of_travel">Date of Travel</string>
+    <string name="from">From</string>
+    <string name="return_date">Return</string>
+    <string name="search_bus">Search bus</string>
+    <string name="to">To</string>
+    <string name="my_details">My details</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="email">Email</string>
+    <string name="first_name">First Name</string>
+    <string name="id_number">Id Number</string>
+    <string name="last_name">Last Name</string>
+    <string name="password">Password</string>
+    <string name="signup">Sign up</string>
+    <string name="Return">Return</string>
+    <string name="bus_booking">Bus Booking</string>
+    <string name="nairobi_to_mombasa">Nairobi To Mombasa</string>
+    <string name="sat_12_june">Sat 12 June</string>
+    <string name="available_seats_s">Available Seats(s)</string>
+    <string name="booked_seats_s">Booked Seats(s)</string>
+    <string name="done">Done</string>
+    <string name="economy_seats_s">Economy seats(s):</string>
+    <string name="no_of_seats_s_selected">No of Seats (s) selected:</string>
+    <string name="select_your_seat">Select Your Seat</string>
+    <string name="selected_seats_s">Selected Seats(s)</string>
+    <string name="vip_seats_s">VIP seats(s):</string>
+    <string name="payment">Payment</string>
+    <string name="mode_of_payment">Mode of Payment</string>
+    <string name="complete_done">Done</string>
+    <string name="you_will_recieve_a_text_on_your_phone">You will recieve a text on your phone</string>
+    <string name="thank_you">Thank You</string>
+    <string name="sms_send_to_07127342945">SMS</string>
+    <string name="we_ll_send_you_an_sms_for_confirmation">We\'ll send you an SMS for confirmation</string>
+    <string name="date">date</string>
+    <string name="_22_05_2017">22/05/2017</string>
+    <string name="_24_05_2017">24/05/2017</string>
+    <string name="click_here">Click Here</string>
+</resources>
